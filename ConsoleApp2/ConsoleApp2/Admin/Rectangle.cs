@@ -13,14 +13,14 @@ namespace ConsoleApp2.Admin
 
         public Rectangle(int height, int width)
         {
-            this.height = x;
+            this.height = height;
 
-            this.width = y;
+            this.width = width;
         }
 
         public override double GetArea()
         {
-            return x * y;
+            return height * width;
         }
     }
 }
