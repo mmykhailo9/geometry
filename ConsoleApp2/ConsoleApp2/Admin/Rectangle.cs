@@ -10,12 +10,15 @@ namespace ConsoleApp2.Admin
     {
         public int height;
         public int width;
+        public int length;
 
-        public Rectangle(int height, int width)
+        public Rectangle(int height, int width, int length, int x, int y, int z ) : base(x, y, z)
         {
             this.height = height;
 
             this.width = width;
+
+            this.length = length;
         }
 
         public override double GetArea()
