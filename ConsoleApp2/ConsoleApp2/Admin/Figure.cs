@@ -11,12 +11,15 @@ namespace ConsoleApp2.Admin
     {
         public int x;
         public int y;
+        public int z;
 
-        public Figure(string x, string y)
+        public Figure(string x, string y, string z)
         {
             this.x = x;
   
             this.y = y;
+
+            this.z = z;
         }
 
 
