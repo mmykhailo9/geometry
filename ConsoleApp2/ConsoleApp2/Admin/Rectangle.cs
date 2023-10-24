@@ -8,22 +8,19 @@ namespace ConsoleApp2.Admin
 {
     public class Rectangle : Figure
     {
-        public int x;
-        public int y; 
-        public int z;
+        public int height;
+        public int width;
 
-        public Rectangle(int x, int y, int z)
+        public Rectangle(int height, int width)
         {
-            this.x = x;
+            this.height = height;
 
-            this.y = y;
-
-            this.z = z;
+            this.width = width;
         }
 
         public override double GetArea()
         {
-            return x * y;
+            return height * width;
         }
     }
 }
