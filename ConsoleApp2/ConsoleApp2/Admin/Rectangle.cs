@@ -9,7 +9,6 @@ namespace ConsoleApp2.Admin
     public class Rectangle : Figure
     {
         public int x;
-
         public int y;
 
         public Rectangle(int x, int y)
