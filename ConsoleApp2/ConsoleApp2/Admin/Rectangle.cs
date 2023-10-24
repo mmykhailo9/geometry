@@ -8,14 +8,14 @@ namespace ConsoleApp2.Admin
 {
     public class Rectangle : Figure
     {
-        public int x;
-        public int y;
+        public int height;
+        public int width;
 
-        public Rectangle(int x, int y)
+        public Rectangle(int height, int width)
         {
-            this.x = x;
+            this.height = x;
 
-            this.y = y;
+            this.width = y;
         }
 
         public override double GetArea()
