@@ -14,6 +14,7 @@ namespace ConsoleApp2.Admin
         public Rectangle(int x, int y)
         {
             this.x = x;
+
             this.y = y;
         }
 
