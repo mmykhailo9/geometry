@@ -13,7 +13,7 @@ namespace ConsoleApp2.Admin
         public int y;
         public int z;
 
-        public Figure(string x, string y, string z)
+        public Figure(int x, int y, int z)
         {
             this.x = x;
   
