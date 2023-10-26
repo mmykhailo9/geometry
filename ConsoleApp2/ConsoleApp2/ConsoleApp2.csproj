@@ -43,9 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin\Figure3D.cs" />
     <Compile Include="Admin\Circule.cs" />
     <Compile Include="Admin\Figure.cs" />
     <Compile Include="Admin\Rectangle.cs" />
+    <Compile Include="Admin\Sphere.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
