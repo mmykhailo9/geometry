@@ -12,7 +12,7 @@ namespace ConsoleApp2.Admin
         public int x;
         public int y;
         public int z;
-        private object value;
+   
 
         public Figure(int x, int y, int z)
         {
@@ -21,11 +21,6 @@ namespace ConsoleApp2.Admin
             this.y = y;
 
             this.z = z;
-        }
-
-        public Figure(int x, int y, int z, object value) : this(x, y, z)
-        {
-            this.value = value;
         }
 
         public virtual double GetArea()
