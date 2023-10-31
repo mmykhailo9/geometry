@@ -12,6 +12,7 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Pres figure number and Enter");
             string line = Console.ReadLine();
             int flag = Convert.ToInt32(line);
 
@@ -28,10 +29,15 @@ namespace ConsoleApp2
                 block = new Rectangle(10, 10, 10, 10, 10, 10);
             }
 
+            if(flag == 3)
+            {
+                block = new Sphere(10, 0, 0, 0);
+            }
+
             if(block != null)
             {
                 double result = block.GetArea();
-                Console.WriteLine($"Area of figure ={result}");
+                Console.WriteLine($"Area of figure = {result}");
             }
             else
             {
