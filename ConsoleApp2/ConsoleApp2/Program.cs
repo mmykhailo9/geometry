@@ -19,12 +19,13 @@ namespace ConsoleApp2
 
             if(flag == 1)
             {
-                block = new Circule(10);
+                block = new Circule(10, 10 , 10, 10);
+
             }
             
             if(flag == 2)
             {
-                block = new Rectangle(10, 10);
+                block = new Rectangle(10, 10, 10, 10, 10, 10);
             }
 
             if(block != null)
