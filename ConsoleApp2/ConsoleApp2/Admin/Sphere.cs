@@ -8,10 +8,17 @@ namespace ConsoleApp2.Admin
 {
     public class Sphere : Figure3D
     {
+        public double Radius;
+        public int volume;
 
+
+         
         public Sphere(double r,int x, int y, int z) : base(r, x, y, z)
         {
-            
-        }
+            Radius = r;
+            Console.Write("R=");
+            double R = double.Parse(Console.ReadLine());
+            Console.WriteLine(" = {0}", 4.0 / 3 * Math.PI * Radius * Radius * Radius);
     }
+}
 }
