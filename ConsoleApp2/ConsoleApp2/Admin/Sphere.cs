@@ -8,10 +8,17 @@ namespace ConsoleApp2.Admin
 {
     public class Sphere : Figure3D
     {
-
-        public Sphere(double r,int x, int y, int z) : base(r, x, y, z)
+        public double Radius;
+        public Sphere(double r,int x, int y, int z) : base(x, y, z)
         {
-            
+            Radius = r;
         }
+
+        public override double GetArea()
+        {
+            return 4 * Math.PI * Radius * Radius;
+        }
+
+
     }
 }

@@ -10,15 +10,12 @@ namespace ConsoleApp2.Admin
 
 	public class Figure3D : Figure
 	{
-		public double Radius;
+		
 
-		public Figure3D(double r, int x, int y, int z) : base(x, y, z)
+		public Figure3D(int x, int y, int z) : base(x, y, z)
 		{
-			Radius = r;
 		}
 			
     }
-	
-
-	}
+}
 
