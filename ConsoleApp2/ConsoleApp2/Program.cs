@@ -19,18 +19,23 @@ namespace ConsoleApp2
 
             if(flag == 1)
             {
-                block = new Circule(10,10,10,10);
+                block = new Circule(10);
             }
             
             if(flag == 2)
             {
-                block = new Rectangle(10, 10, 10);
+                block = new Rectangle(10, 10, 10, 10, 10, 10);
+            }
+
+            if(flag == 3)
+            {
+                block = new Sphere(10, 0, 0, 0);
             }
 
             if(block != null)
             {
                 double result = block.GetArea();
-                Console.WriteLine($"Area of figure ={result}");
+                Console.WriteLine($"Area of figure = {result}");
             }
             else
             {
