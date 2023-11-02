@@ -12,7 +12,7 @@ namespace ConsoleApp2.Admin
         public int width;
         public int length;
 
-        public Rectangle(int height, int width, int length, int x, int y, int z ) : base(x, y, z)
+        public Rectangle(int height, int width, int length, int x, int y, int z) : base(x, y, z)
         {
             this.height = height;
 
@@ -24,6 +24,10 @@ namespace ConsoleApp2.Admin
         public override double GetArea()
         {
             return height * width;
+        }
+        public double GetPerimetr()
+        {
+            return height + width + height + width;
         }
     }
 }
