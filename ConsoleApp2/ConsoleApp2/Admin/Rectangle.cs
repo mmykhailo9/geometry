@@ -14,6 +14,7 @@ namespace ConsoleApp2.Admin
 
         public Rectangle(int height, int width, int length, int x, int y, int z ) : base(x, y, z)
         {
+
             this.height = height;
 
             this.width = width;
@@ -23,7 +24,7 @@ namespace ConsoleApp2.Admin
 
         public override double GetArea()
         {
-            return height * width;
+            return height * width * z;
         }
     }
 }

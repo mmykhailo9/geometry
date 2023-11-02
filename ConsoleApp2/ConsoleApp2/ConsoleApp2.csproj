@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Admin\Figure3D.cs" />
     <Compile Include="Admin\Circule.cs" />
+    <Compile Include="Admin\Cube.cs" />
     <Compile Include="Admin\Figure.cs" />
     <Compile Include="Admin\Rectangle.cs" />
     <Compile Include="Admin\Sphere.cs" />

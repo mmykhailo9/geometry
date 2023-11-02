@@ -12,7 +12,6 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Pres figure number and Enter");
             string line = Console.ReadLine();
             int flag = Convert.ToInt32(line);
 
@@ -20,8 +19,7 @@ namespace ConsoleApp2
 
             if(flag == 1)
             {
-                block = new Circule(10, 10 , 10, 10);
-
+                block = new Circule(10);
             }
             
             if(flag == 2)
