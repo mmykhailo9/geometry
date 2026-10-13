@@ -10,7 +10,7 @@ namespace ConsoleApp2.Admin
     {
         public double Radius;
 
-        public Circule(double r, int x, int y, int z) : base(x, y, z)
+        public Circule(double r, int x = 0, int y = 0, int z = 0) : base(x, y, z)
         { 
             Radius = r;
         }
