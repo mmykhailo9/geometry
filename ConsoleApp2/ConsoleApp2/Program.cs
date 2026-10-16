@@ -12,6 +12,7 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Select figure: 1 - Circule, 2 - Rectangle, 3 - Sphere");
             string line = Console.ReadLine();
             int flag = Convert.ToInt32(line);
 
