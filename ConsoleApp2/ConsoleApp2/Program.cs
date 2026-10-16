@@ -13,6 +13,7 @@ namespace ConsoleApp2
         static void Main(string[] args)
         {
             Console.WriteLine("Select figure: 1 - Circule, 2 - Rectangle, 3 - Sphere");
+            Console.WriteLine("From Mykhailo Melnyk branch. Enter number of figure: ");
             string line = Console.ReadLine();
             int flag = Convert.ToInt32(line);
 
